@@ -263,4 +263,82 @@ export const galleryConfig: GalleryItem[] = [
 			link: "http://x.com/bestsaasdesigns/status/2116734175646806411",
 		},
 	},
+	{
+		id: "design-010",
+		title: "Creative Motion Design",
+		description: "An experimental motion design project.",
+		category: "Motion Design",
+		tags: ["Motion", "3D", "Animation"],
+
+		media: {
+			preview:
+				"https://pub-de9f658926a44ddea5def1ffec9091c6.r2.dev/videos/010/preview/nikkbadlani-2116886220383121920-video-482x360.mp4",
+			full: "https://pub-de9f658926a44ddea5def1ffec9091c6.r2.dev/videos/010/full/nikkbadlani-2116886220383121920-video-1448x1080.mp4",
+		},
+
+		creator: {
+			name: "Nikk Badlani",
+			username: "@nikkbadlani",
+			avatar:
+				"https://pbs.twimg.com/profile_images/2112219015749988352/5MLX-ud8_400x400.jpg",
+			link: "https://x.com/nikkbadlani",
+		},
+
+		source: {
+			platform: "X",
+			link: "https://x.com/nikkbadlani/status/2116886220383121920",
+		},
+	},
+	{
+		id: "design-011",
+		title: "Creative Motion Design",
+		description: "An experimental motion design project.",
+		category: "Motion Design",
+		tags: ["Motion", "3D", "Animation"],
+
+		media: {
+			preview:
+				"https://pub-de9f658926a44ddea5def1ffec9091c6.r2.dev/videos/011/preview/benchodev-2113744773848682633-video-450x360.mp4",
+			full: "https://pub-de9f658926a44ddea5def1ffec9091c6.r2.dev/videos/011/full/benchodev-2113744773848682633-video-900x720.mp4",
+		},
+
+		creator: {
+			name: "Bencho",
+			username: "@benchodev",
+			avatar:
+				"https://pbs.twimg.com/profile_images/2104302427960741888/T3q2Cr_E_400x400.jpg",
+			link: "https://x.com/benchodev",
+		},
+
+		source: {
+			platform: "X",
+			link: "https://x.com/benchodev/status/2113744773848682633",
+		},
+	},
+	{
+		id: "design-012",
+		title: "Creative Motion Design",
+		description: "An experimental motion design project.",
+		category: "Motion Design",
+		tags: ["Motion", "3D", "Animation"],
+
+		media: {
+			preview:
+				"https://pub-de9f658926a44ddea5def1ffec9091c6.r2.dev/videos/012/preview/bestdesignsonx-2116923222008717514-video-576x360.mp4",
+			full: "https://pub-de9f658926a44ddea5def1ffec9091c6.r2.dev/videos/012/full/bestdesignsonx-2116923222008717514-video-1728x1080.mp4",
+		},
+
+		creator: {
+			name: "Best Designs On X",
+			username: "@bestdesignsonx",
+			avatar:
+				"https://pbs.twimg.com/profile_images/1934875138325114880/nQu2Kv5H_400x400.jpg",
+			link: "https://x.com/bestdesignsonx",
+		},
+
+		source: {
+			platform: "X",
+			link: "https://x.com/bestdesignsonx/status/2116923222008717514",
+		},
+	},
 ];
