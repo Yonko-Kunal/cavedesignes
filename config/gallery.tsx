@@ -342,3 +342,20 @@ export const galleryConfig: GalleryItem[] = [
 		},
 	},
 ];
+
+export function getGalleryItem(id: string): GalleryItem | undefined {
+	return galleryConfig.find((item) => item.id === id);
+}
+
+export function getAdjacentGalleryItems(id: string): {
+	prevItem?: GalleryItem;
+	nextItem?: GalleryItem;
+} {
+	const index = galleryConfig.findIndex((item) => item.id === id);
+	if (index === -1) return {};
+	return {
+		prevItem: index > 0 ? galleryConfig[index - 1] : undefined,
+		nextItem: index < galleryConfig.length - 1 ? galleryConfig[index + 1] : undefined,
+	};
+}
+

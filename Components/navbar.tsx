@@ -21,7 +21,7 @@ const Navbar = () => {
 					>
 						<path
 							d="M0 0 H400 V0 Q400 0 400 0 V16 Q400 48 368 48 H32 Q0 48 0 16 V0 Q0 0 0 0 Z"
-							fill="currentColor"
+							fill="var(--foreground)"
 						/>
 					</svg>
 
@@ -30,7 +30,7 @@ const Navbar = () => {
 							<Link
 								key={item.href}
 								href={item.href}
-								className="text-sm font-medium text-background"
+								className="2xl:text-sm xl:text-[12px] font-normal text-background"
 							>
 								{item.title}
 							</Link>

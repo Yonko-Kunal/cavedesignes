@@ -11,7 +11,7 @@ const Container = forwardRef<HTMLDivElement, ContainerProps>(
 			<div
 				ref={ref}
 				className={twMerge(
-					"container mx-auto px-2 py-2 xl:max-w-screen 2xl:max-w-400",
+					"container mx-auto px-2 py-2 xl:max-w-290 2xl:max-w-400",
 					className,
 				)}
 				{...props}
